@@ -53,3 +53,26 @@
     padding: 5em 1em 10em 1em;
   }
 }
+/* HELP SECTION styles: minimal, icon with heading */
+.help-header {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 0 1em;
+  margin-bottom: 2em;
+  opacity: 0; /* For animation */
+  transform: translateY(25px);
+}
+
+.help-header ion-icon {
+  font-size: 2rem;
+  color: var(--color-text-secondary);
+}
+
+.help-header h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
