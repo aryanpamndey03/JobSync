@@ -22,6 +22,7 @@ const tl = gsap
     },
     0.1
   );
+ clean-help-section
   gsap.to(".help-header", {
   scrollTrigger: {
     trigger: ".about",
@@ -57,6 +58,4 @@ gsap.fromTo(
     ease: "power2.out",
   }
 );
-
-
 

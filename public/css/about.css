@@ -53,6 +53,7 @@
     padding: 5em 1em 10em 1em;
   }
 }
+ clean-help-section
 /* HELP SECTION styles: minimal, icon with heading */
 .help-header {
   display: flex;
@@ -76,3 +77,5 @@
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+ 
